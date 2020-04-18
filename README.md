@@ -10,17 +10,23 @@ python 0510713.py crawl
 to crawl all the titles and url in 2018
 
 
-Then, depends on different porposes, run:
+Then, add different args depend on different porposes.
+
+## Push
 
   ```
   python 0510713.py push {start_date} {end_date}
   ```
   to output all likes and boo commands, and user id of leaving top-10 like and boo commands among the period.
+  
+## Popular
 
   ```
   python 0510713.py popular {start_date} {end_date}
   ```
   to output numbers and image url of poular articles among the period.
+
+## Keyword
 
   ```
   python 0510713.py keyword {keyword} {start_date} {end_date}
