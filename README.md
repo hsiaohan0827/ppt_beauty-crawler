@@ -17,18 +17,18 @@ Then, add different args depend on different porposes.
   ```
   python 0510713.py push {start_date} {end_date}
   ```
-  to output all likes and boo commands, and user id of leaving top-10 like and boo commands among the period.
+ output all likes and boo commands, and user id of leaving top-10 like and boo commands among the period.
   
 ## Popular
 
   ```
   python 0510713.py popular {start_date} {end_date}
   ```
-  to output numbers and image url of poular articles among the period.
+  output numbers and image url of poular articles among the period.
 
 ## Keyword
 
   ```
   python 0510713.py keyword {keyword} {start_date} {end_date}
   ```
-  to output image url of articles which contains keywords among the period.
+  output image url of articles which contains keywords among the period.
